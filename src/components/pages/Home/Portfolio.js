@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 const Portfolio = () => {
@@ -26,9 +27,7 @@ return (
                 </div>
                 <div className="portfolio-container">
                         <div className="col-lg-4 col-md-6 portfolio-thumbnail all java mobileapp">
-                    <a href="./Projects">
-                        <figure><img src="images/portfolio/kidsplay.jpg" alt="img"/></figure>
-                            </a>
+                    <a href="./Projects"><figure><img src="images/portfolio/kidsplay.jpg" alt="img"/></figure></a>
                     </div>
                         <div className="col-lg-4 col-md-6 portfolio-thumbnail all php webapp">
                             <a href="https://issueticketingsystem.com">
