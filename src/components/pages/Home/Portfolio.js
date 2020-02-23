@@ -26,8 +26,10 @@ return (
                     </ul>
                 </div>
                 <div className="portfolio-container">
-                        <div className="col-lg-4 col-md-6 portfolio-thumbnail all java mobileapp">
-                    <a href="./Projects"><figure><img src="images/portfolio/kidsplay.jpg" alt="img"/></figure></a>
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all java mobileapp">
+                        <Link to="/Projects">
+                             <img src="images/portfolio/kidsplay.jpg" alt="img"/>
+                        </Link>
                     </div>
                         <div className="col-lg-4 col-md-6 portfolio-thumbnail all php webapp">
                             <a href="https://issueticketingsystem.com">
