@@ -328,18 +328,16 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #f7f7f7;
-  padding-top: 190px;
+  padding-top: 100px;
 }
 
-#project-descr .col-lg-4{
-
-  text-align: center;
-}
-
-#project-descr .div-img-bg .project-img img {
+#project-descr .div-img-bg img {
   width: 100%;
-  margin-left: 40px;
-  height: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: auto;
+  height: 400px;
   object-fit: cover;
 }
 
