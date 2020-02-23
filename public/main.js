@@ -72,12 +72,13 @@ $(document).ready(function() {
   
   $('#about').css({
     opacity: function() {
-	  var headerHeight = $('#header').height();
+    var headerHeight = $('#header').height();
 	  
-      var elementHeight = $(this).height();	  
+    var elementHeight = $(this).height();	
+    var halfHeight = elementHeight / 2;  
 	  
 	  
-      return ((headerHeight + elementHeight - scrollTop) / elementHeight);
+      return ((headerHeight + elementHeight + halfHeight - scrollTop) / elementHeight);
     }
   });
   
