@@ -1,9 +1,10 @@
 /*global $, jQuery, alert*/
 $(document).ready(function() {
 
+  //scroll to top on route
   window.scrollTo(0, 0);
   
-	$("#main-nav, #main-nav-subpage").slideDown(700);
+  $("#main-nav, #main-nav-subpage").slideDown(700);
 
   
 
@@ -31,7 +32,7 @@ $(document).ready(function() {
 
     target = $(target);
     $('html, body').stop().animate({
-      'scrollTop': target.offset().top - 80
+      'scrollTop': target.offset().top + 50
     }, 500, 'swing', function() {
       window.location.hash = target.selector;
       $(document).on("scroll", onScroll);
@@ -57,6 +58,17 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
   var scrollTop = $(this).scrollTop();
+
+  var headerHeight = $('#header').height();
+  var headerProjectHeight = $('#header-project').height();
+
+  //hide nav bar after header
+  if(scrollTop > (headerHeight -100) || scrollTop > (headerProjectHeight - 100)){
+    $("#main-nav, #main-nav-subpage").slideUp(700);
+  }
+  else{
+    $("#main-nav, #main-nav-subpage").slideDown(700);
+  }
 
   $('#header').css({
     opacity: function() {
