@@ -1,12 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-var loadjs = require('loadjs');
 
 class Portfolio extends React.Component {
-
-    componentDidMount() {
-      }
 
       render() {
 

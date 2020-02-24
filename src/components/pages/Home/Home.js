@@ -6,15 +6,12 @@ import HomeNav from './HomeNav.js';
 import Services from './Services.js';
 import Portfolio from './Portfolio';
 import Contact from './Contact.js';
-import isotope from 'isotope-layout';
-
 
 var loadjs = require('loadjs');
 
 class Home extends React.Component {
 
     componentDidMount() {
-        loadjs('isotope.pkgd.min.js');
         loadjs('main.js');
     }
 

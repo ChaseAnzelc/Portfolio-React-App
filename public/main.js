@@ -89,7 +89,7 @@ $(document).ready(function() {
   //  // RESPONSIVE MENU
   // ========================================================================= //
 
-  $('.responsive').on('click', function(e) {
+  $('.responsive').on('click', function() {
     $('.nav-menu').slideToggle();
   });
 
