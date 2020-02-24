@@ -1,6 +1,7 @@
 /*global $, jQuery, alert*/
 $(document).ready(function() {
-  
+
+  window.scrollTo(0, 0);
   
 	$("#main-nav, #main-nav-subpage").slideDown(700);
 
@@ -142,7 +143,7 @@ $(document).ready(function() {
 // ========================================================================= //
 //  Porfolio isotope and filter
 // ========================================================================= //
-$(window).load(function(){
+$(function(){
 
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',

@@ -90,7 +90,8 @@ var loadjs = require('loadjs');
 class Projects extends React.Component {
 
     componentDidMount() {
-        loadjs('../../../main.js');
+        loadjs('main.js');
+        loadjs('isotope.pkgd.min.js');
       }
 
     render() {
