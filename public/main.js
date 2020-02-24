@@ -6,7 +6,6 @@ $(document).ready(function() {
   
   $("#main-nav, #main-nav-subpage").slideDown(700);
 
-  
 
   // ========================================================================= //
   //  //SMOOTH SCROLL
@@ -31,6 +30,7 @@ $(document).ready(function() {
     var target = this.hash, menu = target;
 
     target = $(target);
+    //scroll to position
     $('html, body').stop().animate({
       'scrollTop': target.offset().top + 50
     }, 500, 'swing', function() {
@@ -83,33 +83,6 @@ $(document).ready(function() {
       return ((elementHeight - scrollTop) / elementHeight);
     }
   });
-  
-  
-  $('#about').css({
-    opacity: function() {
-    var headerHeight = $('#header').height();
-	  
-    var elementHeight = $(this).height();	
-    var halfHeight = elementHeight / 2;  
-	  
-	  
-      return ((headerHeight + elementHeight + halfHeight - scrollTop) / elementHeight);
-    }
-  });
-  
-  $('#services').css({
-    opacity: function() {
-	  var headerHeight = $('#header').height();
-	  var aboutHeight = $('#about').height();
-	  
-      var elementHeight = $('#this').height();	  
-	  
-	  
-      return ((aboutHeight + headerHeight + elementHeight - scrollTop) / elementHeight);
-    }
-  });
-  
-  
 });
 
   // ========================================================================= //
