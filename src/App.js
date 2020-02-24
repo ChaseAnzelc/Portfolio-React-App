@@ -13,10 +13,10 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/(|index.html)/" component={Home}/>
-          <Route path="/Projects" component={Projects}/>
+          <Route exact path="/Projects" component={Projects}/>
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

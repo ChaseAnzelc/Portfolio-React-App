@@ -9,7 +9,7 @@ import Contact from './Contact.js';
 
 const Home = () => {
     return (
-    <div>
+    <div id="HomePage">
        <HomeNav />
        <HomeHeader />
        <AboutMe />

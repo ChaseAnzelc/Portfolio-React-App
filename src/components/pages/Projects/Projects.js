@@ -85,10 +85,32 @@ var headerList = [
     'Hangman' 
 ];
 
+var loadjs = require('loadjs');
 
-const Projects = () => {
+class Projects extends React.Component {
+
+    componentDidMount() {
+        loadjs('../../../main.js');
+      }
+
+    render() {
+        return (
+        <div id="ProjectPage">
+            <ProjectNav />
+            <ProjectHeader header={headerList[1]}/>
+            <Description description={descriptionList[1]} image={imageList[1]}/>
+            <Presentation />
+        <Demo demo={demoList[0]}/>
+        </div>
+        );
+    }
+}
+/*const Projects = () => {
+
+   
+
     return (
-    <div>
+    <div id="ProjectPage">
        <ProjectNav />
        <ProjectHeader header={headerList[1]}/>
        <Description description={descriptionList[1]} image={imageList[1]}/>
@@ -96,5 +118,5 @@ const Projects = () => {
        <Demo demo={demoList[0]}/>
     </div>
     );
-};
+};*/
 export default Projects;

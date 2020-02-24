@@ -7,7 +7,7 @@ const Demo = (props) => {
             <div className="container">
                 <p className="heading">Demo</p>
                 <div className='embed-container'>
-                    <iframe src={props.demo} frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe title="demo" src={props.demo} frameBorder="0" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
             </div>
       </div>

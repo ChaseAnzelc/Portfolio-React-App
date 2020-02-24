@@ -5,6 +5,9 @@ const AboutMe = () => {
     return (
                 <div id="about" className="paddsection">
                     <div className="container">
+                    <div className="section-title text-center">
+                        <h2>About Me</h2>
+                        </div>
                         <div className="row justify-content-between">
                             <div className="col-lg-4 ">
                                 <div className="div-img-bg">

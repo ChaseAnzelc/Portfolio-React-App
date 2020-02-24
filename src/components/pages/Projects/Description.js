@@ -9,9 +9,9 @@ return (
             <div className="col-lg-7">
                 <div className="description">
                     <p className="heading">Description</p>
-                    <p className="separator">
+                    <span className="separator">
                         <div dangerouslySetInnerHTML={{__html: props.description}} />
-                    </p>
+                    </span>
                 </div>
             </div>	  
             <div className="col-lg-4 ">
