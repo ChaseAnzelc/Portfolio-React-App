@@ -1,8 +1,15 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
+var loadjs = require('loadjs');
 
-const Portfolio = () => {
+class Portfolio extends React.Component {
+
+    componentDidMount() {
+      }
+
+      render() {
+
 return (
         <div id="portfolio" className="text-center paddsection">
             <div className="container">
@@ -62,5 +69,6 @@ return (
             </div>
         </div>
     );
-};
+}
+}
 export default Portfolio;

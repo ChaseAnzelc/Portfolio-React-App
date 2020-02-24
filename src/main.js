@@ -71,7 +71,6 @@ $(document).ready(function() {
     }
   });
   
-  
   $('#about').css({
     opacity: function() {
     var headerHeight = $('#header').height();
@@ -80,7 +79,7 @@ $(document).ready(function() {
     var halfHeight = elementHeight / 2;  
 	  
 	  
-      return ((headerHeight + elementHeight + halfHeight - scrollTop) / elementHeight);
+      return 1;
     }
   });
   

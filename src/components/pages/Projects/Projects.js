@@ -100,7 +100,7 @@ class Projects extends React.Component {
             <ProjectHeader header={headerList[1]}/>
             <Description description={descriptionList[1]} image={imageList[1]}/>
             <Presentation />
-        <Demo demo={demoList[0]}/>
+            <Demo demo={demoList[0]}/>
         </div>
         );
     }
