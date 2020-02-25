@@ -221,10 +221,8 @@ nav ul li a {
 }
 
 #header-project {
-  background: url("./images/project-banner.jpg") repeat scroll center center / cover;
   height: 70vh;
   width: 100%;
-
 }
 
 #header-project .header-content {
@@ -333,11 +331,10 @@ nav ul li a {
 
 #project-descr .div-img-bg img {
   width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: 100px;
   margin-bottom: auto;
   margin-left: auto;
-  height: 400px;
+  height: 100%;
   object-fit: cover;
 }
 

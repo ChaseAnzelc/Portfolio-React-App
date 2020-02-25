@@ -151,12 +151,23 @@ var descriptionList = [
 
 var imageList = [
 
-    '../images/kidsplay-img.jpg',
-    '../images/issue-ticketing-system.jpg',
+    '../images/kidsplay-phone.jpg',
+    '../images/issuetic-laptop.jpg',
     '../images/.jpg',
     '../images/.jpg',
     '../images/.jpg',
-    '../images/.jpg'
+    '../images/hangman-laptop.jpg'
+
+];
+
+var styleList = [
+
+    '../images/kidsplaybanner.jpg',
+    '../images/issueticbanner.jpg',
+    '../images/luigipizzariabanner.jpg',
+    '../images/bankingledgerbanner.jpg',
+    '../images/mazesolverbanner.jpg',
+    '../images/hangmanbanner.jpg'
 
 ];
 
@@ -234,7 +245,7 @@ class Projects extends React.Component {
         return (
         <div id="ProjectPage">
             <ProjectNav id={this.state.project_number}/>
-            <ProjectHeader header={headerList[this.state.project_number]}/>
+            <ProjectHeader header={headerList[this.state.project_number]} style={styleList[this.state.project_number]}/>
             <Description description={descriptionList[this.state.project_number]} image={imageList[this.state.project_number]}/>
             <ShowPresentation id={this.state.project_number}/>
             <Demo demo={demoList[this.state.project_number]}/>
