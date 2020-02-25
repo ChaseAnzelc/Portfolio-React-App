@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/(|index.html)/" component={Home}/>
-          <Route exact path="/Projects" component={Projects}/>
+          <Route path="/Projects/:projectname" component={Projects}/>
         </Switch>
         <Footer />
         <a href="#" className="back-to-top"><i className="icofont-simple-up"></i></a>

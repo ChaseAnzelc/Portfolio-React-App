@@ -55,8 +55,8 @@ var descriptionList = [
 
 var imageList = [
 
-    'images/kidsplay-img.jpg',
-    'images/issue-ticketing-system.jpg',
+    '../images/kidsplay-img.jpg',
+    '../images/issue-ticketing-system.jpg',
     '',
     '',
     '',
@@ -90,8 +90,8 @@ var loadjs = require('loadjs');
 class Projects extends React.Component {
 
     componentDidMount() {
-        loadjs('main.js');
-        loadjs('isotope.pkgd.min.js');
+        loadjs('../main.js');
+        loadjs('../isotope.pkgd.min.js');
       }
 
     render() {

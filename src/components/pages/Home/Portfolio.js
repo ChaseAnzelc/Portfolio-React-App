@@ -30,7 +30,7 @@ return (
                 </div>
                 <div className="portfolio-container">
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all java mobileapp">
-                        <Link to="/Projects">
+                        <Link to="/Projects/kidsplay">
                              <img src="images/portfolio/kidsplay.jpg" alt="img"/>
                         </Link>
                     </div>

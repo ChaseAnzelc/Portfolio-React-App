@@ -7,7 +7,7 @@ const ProjectNav = () => {
         <div className="row">
           <div className="container">
             <div className="logo">
-              <Link to="/"><img src="images/logo.jpg" alt="logo"/></Link>
+              <Link to="/"><img src="../images/logo.jpg" alt="logo"/></Link>
             </div>
             <div className="responsive"><i data-icon="m" className="ion-navicon-round"></i></div>
             <ul className="nav-menu list-unstyled">
