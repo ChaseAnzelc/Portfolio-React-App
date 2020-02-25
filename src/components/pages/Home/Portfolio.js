@@ -40,9 +40,9 @@ return (
                             </a>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all java webapp">
-                    <a href="https://issueticketingsystem.com">
-                        <img src="images/portfolio/issuetic.jpg" alt="img"/>
-                            </a>
+                        <Link to="/Projects/issueticketingsystem">
+                            <img src="images/portfolio/issuetic.jpg" alt="img"/>
+                        </Link>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all csharp webapp consoleapp">
                     <a href="https://issueticketingsystem.com">
