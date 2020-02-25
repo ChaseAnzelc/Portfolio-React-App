@@ -16,6 +16,7 @@ function App() {
           <Route exact path="/Projects" component={Projects}/>
         </Switch>
         <Footer />
+        <a href="#" className="back-to-top"><i className="icofont-simple-up"></i></a>
       </BrowserRouter>
     </div>
   );
