@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const ProjectNav = () => {
+const ProjectNav = (props) => {
     return (
       <nav id="main-nav">
         <div className="row">
@@ -13,7 +13,7 @@ const ProjectNav = () => {
             <ul className="nav-menu list-unstyled">
               <li><Link to="/">Home</Link></li>
               <li><a href="#project-descr" className="smoothScroll">Description</a></li>
-              <li><a href="#project-pres" className="smoothScroll">Presentation</a></li>
+              <ShowPresentationNav id={props.id}/>
               <li><a href="#project-demo" className="smoothScroll">Demo</a></li>
             </ul>
           </div>
@@ -22,3 +22,11 @@ const ProjectNav = () => {
   );
 };
   export default ProjectNav;
+
+
+  function ShowPresentationNav(props) {
+    if (props.id == 0 || props.id == 1) {
+      return <li><a href="#project-pres" className="smoothScroll">Presentation</a></li>;
+    }
+    return null;
+  }

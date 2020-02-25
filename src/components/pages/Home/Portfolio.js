@@ -34,10 +34,10 @@ return (
                              <img src="images/portfolio/kidsplay.jpg" alt="img"/>
                         </Link>
                     </div>
-                        <div className="col-lg-4 col-md-6 portfolio-thumbnail all php webapp">
-                            <a href="https://issueticketingsystem.com">
-                        <img src="images/portfolio/luigipizzaria.jpg" alt="img"/>
-                            </a>
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all php webapp">
+                        <Link to="/Projects/luigispizzaria">
+                            <img src="images/portfolio/luigipizzaria.jpg" alt="img"/>
+                        </Link>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all java webapp">
                         <Link to="/Projects/issueticketingsystem">
@@ -45,19 +45,19 @@ return (
                         </Link>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all csharp webapp consoleapp">
-                    <a href="https://issueticketingsystem.com">
-                        <img src="images/portfolio/banking.jpg" alt="img"/>
-                            </a>
+                        <Link to="/Projects/bankingledger">
+                            <img src="images/portfolio/banking.jpg" alt="img"/>
+                        </Link>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all java consoleapp">
-                    <a href="https://issueticketingsystem.com">
-                        <img src="images/portfolio/maze.jpg" alt="img"/>
-                            </a>
+                        <Link to="/Projects/mazesolver">
+                            <img src="images/portfolio/maze.jpg" alt="img"/>
+                        </Link>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all csharp consoleapp">
-                    <a href="https://issueticketingsystem.com">
-                        <img src="images/portfolio/hangman.jpg" alt="img"/>
-                            </a>
+                        <Link to="/Projects/hangman">
+                            <img src="images/portfolio/hangman.jpg" alt="img"/>
+                        </Link>
                     </div>
                 </div>
                 </div>

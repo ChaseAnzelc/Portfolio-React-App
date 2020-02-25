@@ -1,12 +1,12 @@
 import React from "react";
 
 
-const Presentation = () => {
+const Presentation = (props) => {
     return (
         <div id="project-pres" className="paddsection">
             <div className="container">
                 <p className="heading">Presentation</p>
-                    <div className='embed-container'><iframe title="presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vTVBaK6jbZ125yq-vJgd6dvU-X38ewTVbBbETrAC2hDpwsK5OVZTHC4nEYnA_oGzKSr537Cl93CEkQf/embed?start=true&loop=true&delayms=2000" frameBorder="0" width="1440" height="839" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+                    <div className='embed-container'><iframe title="presentation" src={props.pres} frameBorder="0" width="1440" height="839" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
             </div>
         </div>
   );
