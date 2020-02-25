@@ -6,7 +6,6 @@ import Description from './Description';
 import Presentation from './Presentation';
 import Demo from './Demo';
 
-
 var descriptionList = [
 
     'Android Mobile Application built in Android Studio with Java.<br><br>Please download the APK, then proceed to install for hours of ad free fun!<br><br>A super fun children\'s mobile gaming application.<br/><br/>What was used..<br/>[Android Studio IDE]<br/>[Java]<br/>[XML Layout Files]<br/>[Implementation of a sparkbutton, submitbutton, and stylabletoast]<br/>[Fragments]<br/>[Photoshop]<br/>[Animations]<br/>[Intents]<br/>[SQLite Database]<br/>[Handlers]<br/>[RecyclerView]<br/>[Gestures]<br/>[GridView]<br/><br/>Please enjoy the presentation and demo of my Android Mobile App!!',
@@ -76,7 +75,6 @@ var demoList = [
 ];
 
 var headerList = [
-
     'Kids Play Mobile Application', 
     'Issue Ticketing System', 
     'Luigi\'s Pizzaria',
@@ -89,6 +87,43 @@ var loadjs = require('loadjs');
 
 class Projects extends React.Component {
 
+    constructor(props){
+        super(props);
+
+
+        this.state = {
+            project_number: 0
+        }
+    }
+
+    componentWillMount() {
+
+        const projectname  = this.props.match.params.projectname;
+
+        switch (projectname){
+            case 'kidsplay':
+                this.state.project_number = 0;
+                break;
+            case 'issueticketingsystem':
+                this.state.project_number = 1;
+                break;
+            case 'luigispizzaria':
+                this.state.project_number = 2;
+                break;
+            case 'bankingledger':
+                this.state.project_number = 3;
+                break;
+            case 'mazesolver':
+                this.state.project_number = 4;
+                break;
+            case 'hangman':
+                this.state.project_number = 5;
+                break;
+            default:
+                break;
+        }
+    }
+
     componentDidMount() {
         loadjs('../main.js');
         loadjs('../isotope.pkgd.min.js');
@@ -98,26 +133,12 @@ class Projects extends React.Component {
         return (
         <div id="ProjectPage">
             <ProjectNav />
-            <ProjectHeader header={headerList[1]}/>
-            <Description description={descriptionList[1]} image={imageList[1]}/>
+            <ProjectHeader header={headerList[this.state.project_number]}/>
+            <Description description={descriptionList[this.state.project_number]} image={imageList[this.state.project_number]}/>
             <Presentation />
-            <Demo demo={demoList[0]}/>
+            <Demo demo={demoList[this.state.project_number]}/>
         </div>
         );
     }
 }
-/*const Projects = () => {
-
-   
-
-    return (
-    <div id="ProjectPage">
-       <ProjectNav />
-       <ProjectHeader header={headerList[1]}/>
-       <Description description={descriptionList[1]} image={imageList[1]}/>
-       <Presentation />
-       <Demo demo={demoList[0]}/>
-    </div>
-    );
-};*/
 export default Projects;
