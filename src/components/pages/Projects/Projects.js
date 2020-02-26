@@ -8,19 +8,25 @@ import Demo from './Demo';
 
 var descriptionList = [
 
-    'Android Mobile Application built in Android Studio with Java.<br><br>Please download the APK, then proceed to install for hours of ad free fun!<br><br>A super fun children\'s mobile gaming application.<br/><br/>What was used..<br/>[Android Studio IDE]<br/>[Java]<br/>[XML Layout Files]<br/>[Implementation of a sparkbutton, submitbutton, and stylabletoast]<br/>[Fragments]<br/>[Photoshop]<br/>[Animations]<br/>[Intents]<br/>[SQLite Database]<br/>[Handlers]<br/>[RecyclerView]<br/>[Gestures]<br/>[GridView]<br/><br/>Please enjoy the presentation and demo of my Android Mobile App!!',
+    `Android Mobile Application built in Android Studio with Java.<br><br>
+    <h5>Download and Install the APK for hours of ad free fun</h5><br><br>
+    <a href="../app-debug.apk" download>
+    <button type="button" class="btn btn-outline-secondary btn-lg btn-block">Install Kids Play Mobile Application</button>
+    </a><br><br> 
+    A super fun children\'s mobile gaming application.<br/><br/>
+    <h5>Technologies Used</h5><br/>
+    [Android Studio IDE]<br/>
+    [Java]<br/>
+    [XML Layout Files]<br/>
+    [Implementation of a sparkbutton, submitbutton, and stylabletoast]<br/>[Fragments]<br/>[Photoshop]<br/>[Animations]<br/>[Intents]<br/>[SQLite Database]<br/>[Handlers]<br/>[RecyclerView]<br/>[Gestures]<br/>[GridView]<br/><br/>Please enjoy the presentation and demo of my Android Mobile App!!`,
     `
     <h6><i>Easily Manage and Maintain Issues at your Company.</i></h6><br><br>
 
 
     <h5>Live Website</h5><br>
-    <a href="https://www.issueticketingsystem.com">www.issueticketingsystem.com</a><br><br>
-
+    <a href="https://issueticketingsystem.com" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">www.issueticketingsystem.com</button></a><br><br>
     
-
-    <h5>Details</h5><br>
-    
-    -Currently running like this-<br/><br/>
+    <h5>Technologies Used</h5><br/><br>
     [MochaHost Web Hosting]<br/>
     [PostgreSQL Database]<br/>
     [Phppgadmin for Database View/Schema]<br/>
@@ -29,12 +35,12 @@ var descriptionList = [
     [JDK Version jdk1.10.0.2]<br/>
     [Deployed WAR File from Eclipse]<br/><br>
     
-    -The Stack-<br/><br/>
-    Front-End:</br>
-    [HTML][CSS][Javascript][Bootstrap][jQuery]</br>
-    Back-End:</br>
-    [Java][JSP][Apache Tomcat Server]</br>
-    Database:</br>
+    <h5>The Stack</h5><br/><br/>
+    <h6>Front-End:</h6></br>
+    [HTML][CSS][Javascript][Bootstrap][jQuery]</br><br>
+    <h6>Back-End:</h6></br>
+    [Java][JSP][Apache Tomcat Server]</br><br>
+    <h6>Database:</h6></br>
     [Cloud-PostgreSQL]</br><br>
  
     <h5>Please...</h5><br>
@@ -44,107 +50,112 @@ var descriptionList = [
     3. Admin can now open a ticket from your issue request you created, answer your question, and assign the repair to the proper individual so your issue will be promptly fixed.<br>
     <br/>
     `,
-    `Luigi's Pizzeria Web Application
-
-    PHP Web Application
+    `
+    PHP Web Application - Server Side Programming<br><br>
     
-    
-    Running like this...<br/><br/>
+    <h5>Technologies Used</h5><br/><br/>
     [XAMPP - Apache and MySQL]<br/>
     [Apache HTTP Server]<br/>
     [MySQL Database]<br/>
     [PhpMyAdmin for Database View/Schema]<br/>
-    [Bootstrap - Front-end framework]<br/>
+    [Bootstrap - Front-end framework]<br/><br>
     
-    The Stack...<br/>
-    Front-End:</br>
-    [HTML][CSS][JavaScript][Bootstrap]</br>
-    Back-End:</br>
-    [PHP][Apache HTTP Server]</br>
-    Database:</br>
+    <h5>The Stack</h5><br/><br>
+    <h6>Front-End:</h6></br>
+    [HTML][CSS][JavaScript][Bootstrap]</br><br>
+    <h6>Back-End:</h6></br>
+    [PHP][Apache HTTP Server]</br><br>
+    <h6>Database:</h6></br>
     [MySQL]<br/>
     
     `,
     `
-    Banking-Ledger
-    BankingLedger - C# Console Application <br>
-    BankingLedgerWebApplication- C# ASP .NET  Web Application<br><br>
-
-    *Both can be run from the command line with the command -> dotnet run<br>
-    *...as long as .Net is setup on your computer
-    *for the web application put the https://localhost:5001 into your browser<br> 
-
-    # Overview
-    This Application is a small version of a bank.<br>
+    <h6><i>This Application is a small version of a bank.</i></h6><br>
 
     Console Application - Built with c#<br>
-    Web Application - Built with c# and ASP .NET - uses bootstrap to style<br>
+    Web Application - Built with c# and ASP .NET - uses bootstrap to style<br><br>
 
-    What it can do:<br>
-    Login<br>
-    Sign Up [Creates Checking Account]<br>
-    Create New Account [Savings]<br>
-    Change Account [Checking, Savings]<br>
-    Record a deposit<br>
-    Record a withdrawal<br>
-    Check balance<br>
-    View all transaction history<br>
-    Log Out [Saves to Json File instead of a "database"]<br><br>
+    <h5>Functional Requirements</h5><br>
+    - Login<br>
+    - Sign Up [Creates Checking Account]<br>
+    - Create New Account [Savings]<br>
+    - Change Account [Checking, Savings]<br>
+    - Record a deposit<br>
+    - Record a withdrawal<br>
+    - Check balance<br>
+    - View all transaction history<br>
+    - Log Out [Saves to Json File instead of a "database"]<br><br>
     
-    *Only real change from console application to web application was Session class<br>
-    *All other classes stayed mostly the same<br><br>
+    <h6>Quick login use without creating new account:</h6><br> 
+    - Username: cja<br><br> 
+    - Password: password<br><br>
+    *You can delete the database.json file and the program will create a new one for you <br><br>
 
-    Quick login use without creating new account: Username- cja Password- password<br>
-    You can delete the database.json file and the program will create a new one for you =)<br>
+    <h5>The Stack</h5><br><br>
 
-    The Stack...<br>
+    <h6>Front-End:</h6><br>
+    [html][css][javascript][bootstrap][jquery][razor]<br><bR>
+    <h6>Back-End:</h6><br>
+    [C#]<br><br>
+    <h6>Database:</h6><br>
+    [Json]<br><br>
+    <h6>Framework:</h6><br>
+    [ASP .NET MVC]<br><br><br>
 
-    Front-End:<br>
-    [html][css][javascript][bootstrap][jquery][razor]<br>
-    Back-End:<br>
-    [C#]<br>
-    Database:<br>
-    [Json]<br>
-    Framework:<br>
-    [ASP .NET MVC]<br>
-    
-    `,
-    `
-    Maze Solver
-
-    Maze Solver Application  [Created Stack Class Solution] [Binary Tree Solution]
-
-    # Description
-
-    I created a	Java	program	to determine a path	from the start (1,n) of a maze to the finish (n,1) of the maze where n is the size of the maze. I wrote my own stack class to solve this problem WITHOUT the use of java's built in stack class from the java library (java.util.Stack).
-
-
-                
-    Understand	the	Data:	The	maze	is	square	and	the	size	is	n	x	n.	The	lower	left	position	is (1,	1)	and	the	upper	right	position	is	(n,	n).	The	starting	position	is	at	position	(1,	n).	When	you	reach	the	position	(n,	1),	you	have	found	the	exit	and	you	are	done. The	maze	is characterized	by	 boolean arrays (north, east, south, west) indicating where a wall is present in a particular direction if it is true.
-
-    Implementing a Binary tree Solution
-
-    I wrote a Java program to implement a breadth first search 
-    on a Graph using a linked list representation to solve a maze. This program also finds the
-    shortest distance between the start point and end point of the maze.
-
-
-
-    There are 3 maze files that are used for examples:<br>
-    maze8<br>
-    maze16<br>
-    maze32<br>
-
+    <h6>How to Run Web Application and Console Application</h6><br><br>
+    *Both can be run from the command line with the command -> dotnet run<br>
+    *...as long as .Net is setup on your computer<br>
+    *for the web application put the https://localhost:5001 into your browser<br> 
     
     `,
     `
-    # Hangman Game
-    Simple Hangman Game using C#
+    Maze Solver Application built with Java<br><br>  
+    - [Stack Class Solution]<br> 
+    - [Binary Tree Solution (Linked List)]<br><br>
 
-    # Description
+    <h5>What it does</h5><br>
+    I created a	Java program to determine a path from the start (1,n) of a maze to the finish (n,1) of the maze where n is the size of the maze.<br><br> 
+    <i>I wrote my own stack class to solve this problem WITHOUT the use of java's built in stack class from the java library (java.util.Stack).</i><br><br>
 
-    This program chooses a random word from the file [wordlist.txt] to use as the hangman word.<br>
-    A wrong guess will result in a part of a person being drawn.<br>
+
+
+    <h6>Understand	the	Data:</h6><br>	
+    The	maze is	square	and	the	size	is	n	x	n.<br>	
+    The	lower	left	position	is (1,	1)	and	the	upper	right	position	is	(n,	n). <br>
+    The	starting	position	is	at	position	(1,	n). <br>	
+    When	you	reach	the	position	(n,	1),	you	have	found	the	exit	and	you	are	done.<br> 
+    The	maze	is characterized	by	 boolean arrays (north, east, south, west) indicating where a wall is present in a particular direction if it is true.<br><br>
+
+    <h5>Implementing a Binary tree Solution</h5><br>
+
+    I wrote a Java program to implement a breadth first search on a Graph using a linked list representation to solve a maze.<br> 
+    This program also finds the shortest distance between the start point and end point of the maze.<br><br>
+
+
+
+    <h6>There are 3 maze files that are used for examples:</h6><br><br>
+    - maze8.txt<br>
+    - maze16.txt<br>
+    - maze32.txt<br>
+    
+    `,
+    `
+    <h6>Simple Hangman Game created using C\#</h6><br>
+
+    This program chooses a random word from the file [wordlist.txt] to use as the hangman word.<br><br>
+    <i>A wrong guess will result in a part of a person being drawn.</i><br><br>
+
+    <h6>Body Parts:</h6><br>
+    - Head<br>
+    - Left Arm<br>
+    - Neck<br>
+    - Right Arm<br>
+    - Body<br>
+    - Left Leg<br>
+    - Right Leg<br><br>
+
+
+    <i>*This means you have 7 guesses before losing!</i>
     
     `
 ];
@@ -152,9 +163,7 @@ var descriptionList = [
 const sourceList = [
 
     '<a href="https://github.com/ChaseAnzelc/Kids-Play-Android-Mobile-App" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
-    `
-    <a href="https://issueticketingsystem.com" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">Go to Live Website</button></a>
-    <a href="https://github.com/ChaseAnzelc/Issue-Ticketing-System" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>`,
+    `<a href="https://github.com/ChaseAnzelc/Issue-Ticketing-System" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>`,
     '<a href="https://github.com/ChaseAnzelc/Luigi-s-Pizzeria-Web-Application" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
     '<a href="https://github.com/ChaseAnzelc/Banking-Ledger" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
     '<a href="https://github.com/ChaseAnzelc/Maze-Solver" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
@@ -166,9 +175,9 @@ var imageList = [
 
     '../images/kidsplay-phone.jpg',
     '../images/issuetic-laptop.jpg',
-    '../images/.jpg',
-    '../images/.jpg',
-    '../images/.jpg',
+    '../images/pizzaria-laptop.jpg',
+    '../images/banking-laptop.jpg',
+    '../images/maze-laptop.jpg',
     '../images/hangman-laptop.jpg'
 
 ];

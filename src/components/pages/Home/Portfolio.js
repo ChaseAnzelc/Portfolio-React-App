@@ -25,7 +25,6 @@ return (
                         <li className="filter" data-filter=".java">Java</li>
                         <li className="filter" data-filter=".csharp">C#</li>
                         <li className="filter" data-filter=".php">PHP</li>
-                        <li className="filter" data-filter=".c">C</li>
                     </ul>
                 </div>
                 <div className="portfolio-container">
