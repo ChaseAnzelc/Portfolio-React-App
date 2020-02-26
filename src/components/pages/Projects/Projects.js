@@ -149,6 +149,19 @@ var descriptionList = [
     `
 ];
 
+const sourceList = [
+
+    '<a href="https://github.com/ChaseAnzelc/Kids-Play-Android-Mobile-App" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
+    `
+    <a href="https://issueticketingsystem.com" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">Go to Live Website</button></a>
+    <a href="https://github.com/ChaseAnzelc/Issue-Ticketing-System" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>`,
+    '<a href="https://github.com/ChaseAnzelc/Luigi-s-Pizzeria-Web-Application" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
+    '<a href="https://github.com/ChaseAnzelc/Banking-Ledger" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
+    '<a href="https://github.com/ChaseAnzelc/Maze-Solver" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
+    '<a href="https://github.com/ChaseAnzelc/Hangman-Game" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
+
+];
+
 var imageList = [
 
     '../images/kidsplay-phone.jpg',
@@ -246,7 +259,7 @@ class Projects extends React.Component {
         <div id="ProjectPage">
             <ProjectNav id={this.state.project_number}/>
             <ProjectHeader header={headerList[this.state.project_number]} style={styleList[this.state.project_number]}/>
-            <Description description={descriptionList[this.state.project_number]} image={imageList[this.state.project_number]}/>
+            <Description description={descriptionList[this.state.project_number]} image={imageList[this.state.project_number]} source={sourceList[this.state.project_number]}/>
             <ShowPresentation id={this.state.project_number}/>
             <Demo demo={demoList[this.state.project_number]}/>
         </div>
@@ -262,3 +275,4 @@ function ShowPresentation(props) {
   }
   return null;
 }
+

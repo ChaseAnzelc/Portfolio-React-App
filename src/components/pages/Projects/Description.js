@@ -3,6 +3,8 @@ import React from "react";
 
 const Description = (props) => {
 return (
+    <div>
+<div dangerouslySetInnerHTML={{__html: props.source}} />
 <div id="project-descr" className="paddsection">
     <div className="container">
 	    <div className="row justify-content-between">
@@ -21,6 +23,7 @@ return (
             </div>
         </div>
     </div>
+</div>
 </div>
    );
 };
