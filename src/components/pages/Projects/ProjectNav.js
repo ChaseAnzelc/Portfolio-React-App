@@ -25,7 +25,7 @@ const ProjectNav = (props) => {
 
 
   function ShowPresentationNav(props) {
-    if (props.id == 0 || props.id == 1) {
+    if (props.id === 0 || props.id === 1) {
       return <li><a href="#project-pres" className="smoothScroll">Presentation</a></li>;
     }
     return null;

@@ -34,7 +34,7 @@ return (
                         </Link>
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-thumbnail all php webapp">
-                        <Link to="/Projects/luigispizzaria">
+                        <Link to="/Projects/luigispizzeria">
                             <img src="images/portfolio/luigipizzaria.jpg" alt="img"/>
                         </Link>
                     </div>

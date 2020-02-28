@@ -212,7 +212,7 @@ var demoList = [
 var headerList = [
     'Kids Play Mobile Application', 
     'Issue Ticketing System', 
-    'Luigi\'s Pizzaria',
+    'Luigi\'s Pizzeria',
     'Banking Ledger',
     'Maze Solver',
     'Hangman' 
@@ -242,7 +242,7 @@ class Projects extends React.Component {
             case 'issueticketingsystem':
                 this.state.project_number = 1;
                 break;
-            case 'luigispizzaria':
+            case 'luigispizzeria':
                 this.state.project_number = 2;
                 break;
             case 'bankingledger':
