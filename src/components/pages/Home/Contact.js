@@ -12,8 +12,8 @@ return (
               <h2 className="mb-30">Contact Info</h2>
                 <ul className="contact-details">
                     <li><span>Chase Anzelc</span></li>
-                    <li><span>816-602-7188</span></li>
-                    <li><span>cja51230@ucmo.edu</span></li>
+                    <li><span>(503) 432-3775</span></li>
+                    <li><span>cjanzelc@gmail.com</span></li>
                 </ul>
             </div>
           </div>
