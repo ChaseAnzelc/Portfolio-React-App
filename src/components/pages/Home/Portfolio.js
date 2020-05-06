@@ -22,38 +22,40 @@ return (
                         <li className="filter" data-filter=".webapp">Web Applications</li>
                         <li className="filter" data-filter=".mobileapp">Mobile Applications</li>
                         <li className="filter" data-filter=".consoleapp">Console Applications</li>
-                        <li className="filter" data-filter=".java">Java</li>
-                        <li className="filter" data-filter=".csharp">C#</li>
-                        <li className="filter" data-filter=".php">PHP</li>
                     </ul>
                 </div>
                 <div className="portfolio-container">
-                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all java mobileapp">
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all webapp">
+                        <Link to="/Projects/rbmarketplace">
+                             <img src="images/portfolio/rbmarketplace.jpg" alt="img"/>
+                        </Link>
+                    </div>
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all mobileapp">
                         <Link to="/Projects/kidsplay">
                              <img src="images/portfolio/kidsplay.jpg" alt="img"/>
                         </Link>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all php webapp">
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all webapp">
                         <Link to="/Projects/luigispizzeria">
                             <img src="images/portfolio/luigipizzaria.jpg" alt="img"/>
                         </Link>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all java webapp">
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all webapp">
                         <Link to="/Projects/issueticketingsystem">
                             <img src="images/portfolio/issuetic.jpg" alt="img"/>
                         </Link>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all csharp webapp consoleapp">
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail webapp consoleapp">
                         <Link to="/Projects/bankingledger">
                             <img src="images/portfolio/banking.jpg" alt="img"/>
                         </Link>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all java consoleapp">
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all consoleapp">
                         <Link to="/Projects/mazesolver">
                             <img src="images/portfolio/maze.jpg" alt="img"/>
                         </Link>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all csharp consoleapp">
+                    <div className="col-lg-4 col-md-6 portfolio-thumbnail all consoleapp">
                         <Link to="/Projects/hangman">
                             <img src="images/portfolio/hangman.jpg" alt="img"/>
                         </Link>

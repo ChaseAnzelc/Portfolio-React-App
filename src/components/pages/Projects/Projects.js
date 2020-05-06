@@ -155,9 +155,32 @@ var descriptionList = [
     - Right Leg<br><br>
 
 
-    <i>*This means you have 7 guesses before losing!</i>
+    <i>*This means you have 7 guesses before losing!</i>,
     
+    `,
+
     `
+    An eCommerce / service catalog web application developed using React, Node.js, Express JS, and MongoDB. <br>
+    It is an application that allows you to purchase and/or rent properties and products that users post. <br>
+    You can find homes, apartments, services, transportation, housing decor, etc.<br><br>
+
+    <h5>Live Website</h5><br>
+    <a href="https://rbmarketplace.herokuapp.com" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">www.rbmarketplace.herokuapp.com</button></a><br><br>
+    
+    
+
+    Please navigate categories of already added product or don't hesitate to create an account to add your own products!<br><br><br>
+    
+    MERN Stack – <br>
+    [MongoDB] <br>
+    [Express Js] <br>
+    [React Js] <br>
+    [Node Js]<br>
+    [HTML]<br>
+    [CSS]<br>
+    [jQuery]<br>
+    [REST API]<br>
+    [Jira]`
 ];
 
 const sourceList = [
@@ -168,6 +191,7 @@ const sourceList = [
     '<a href="https://github.com/ChaseAnzelc/Banking-Ledger" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
     '<a href="https://github.com/ChaseAnzelc/Maze-Solver" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
     '<a href="https://github.com/ChaseAnzelc/Hangman-Game" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>',
+    '<a href="https://github.com/dgtldrifter/R-BMarketPlace" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg btn-block">View Source Code for Project</button></a>'
 
 ];
 
@@ -178,7 +202,8 @@ var imageList = [
     '../images/pizzaria-laptop.jpg',
     '../images/banking-laptop.jpg',
     '../images/maze-laptop.jpg',
-    '../images/hangman-laptop.jpg'
+    '../images/hangman-laptop.jpg',
+    '../images/rb-cart.jpg'
 
 ];
 
@@ -189,7 +214,8 @@ var styleList = [
     '../images/luigipizzariabanner.jpg',
     '../images/bankingledgerbanner.jpg',
     '../images/mazesolverbanner.jpg',
-    '../images/hangmanbanner.jpg'
+    '../images/hangmanbanner.jpg',
+    '../images/rbmarketplacebanner.jpg'
 
 ];
 
@@ -205,7 +231,8 @@ var demoList = [
     'https://docs.google.com/presentation/d/e/2PACX-1vRejj4p8LJGu0Lz9DpmCyz5-Hdx9peWH_MQXY1EjmALCsLxcOHmdEAeFz71ImB4y3PnqusZB__aMoDM/embed?start=true&loop=true&delayms=3000',
     'https://docs.google.com/presentation/d/e/2PACX-1vQhAXzL1POCUgvtBamuW1Id3n1ThN4lmu_TxKFeYtuVUs4i0tWMcP-lynbBh0QkR5rwUhd_0t1yO74M/embed?start=true&loop=true&delayms=3000',
     'https://docs.google.com/presentation/d/e/2PACX-1vR1I5n9FUC_f6uXpD3LBB85RgdSEr0yT8pqIKcrk6tQIIOjehndAr3SDe2qa_boTnr2tV1_nxxNQsJa/embed?start=true&loop=true&delayms=3000',
-    'https://docs.google.com/presentation/d/e/2PACX-1vR3ecVMnl5Y6DCnlEpaMJtUGZzm8SDXStcuCSl-YNn_GjdGV24ZnMLvsJ6EDdX1d0E-VzS7dTW6DIyO/embed?start=true&loop=true&delayms=3000'
+    'https://docs.google.com/presentation/d/e/2PACX-1vR3ecVMnl5Y6DCnlEpaMJtUGZzm8SDXStcuCSl-YNn_GjdGV24ZnMLvsJ6EDdX1d0E-VzS7dTW6DIyO/embed?start=true&loop=true&delayms=3000',
+    'https://docs.google.com/presentation/d/e/2PACX-1vSm6XIJCKZe83IE1LkYZFglhy4fai0n__HfopFI5HfTe7Dl4-w5XODfUOl24rPgklQ3p2EmoiQZh9Fn/embed?start=true&loop=false&delayms=3000'
 
 ];
 
@@ -215,7 +242,8 @@ var headerList = [
     'Luigi\'s Pizzeria',
     'Banking Ledger',
     'Maze Solver',
-    'Hangman' 
+    'Hangman',
+    'R&B Marketplace' 
 ];
 
 var loadjs = require('loadjs');
@@ -253,6 +281,9 @@ class Projects extends React.Component {
                 break;
             case 'hangman':
                 this.state.project_number = 5;
+                break;
+            case 'rbmarketplace':
+                this.state.project_number = 6;
                 break;
             default:
                 break;
