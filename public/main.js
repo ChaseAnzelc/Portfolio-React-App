@@ -123,7 +123,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Chase Anzelc.", " a Software Developer.", "a Software Engineer.", "a Programmer.", "a Coder."],
+      strings: ["Chase Anzelc.", "an Architect", " a Full Stack Software Engineer.", "a Programmer.", "a Coder."],
       typeSpeed: 130,
       loop: true,
     });

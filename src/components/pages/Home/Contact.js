@@ -12,7 +12,7 @@ return (
               <h2 className="mb-30">Contact Info</h2>
                 <ul className="contact-details">
                     <li><span>Chase Anzelc</span></li>
-                    <li><span>(941) 288-0717</span></li>
+                    <li><span>(971) 341-6500</span></li>
                     <li><span>cjanzelc@gmail.com</span></li>
                 </ul>
             </div>
