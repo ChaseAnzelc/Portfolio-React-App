@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 import ProjectHeader from './ProjectHeader.js';
 import ProjectNav from './ProjectNav.js';
@@ -248,71 +249,53 @@ var headerList = [
 
 var loadjs = require('loadjs');
 
-class Projects extends React.Component {
-
-    constructor(props){
-        super(props);
-
-
-        this.state = {
-            project_number: 0
-        }
-    }
-
-    componentWillMount() {
-
-        const projectname  = this.props.match.params.projectname;
-
-        switch (projectname){
-            case 'kidsplay':
-                this.state.project_number = 0;
-                break;
-            case 'issueticketingsystem':
-                this.state.project_number = 1;
-                break;
-            case 'luigispizzeria':
-                this.state.project_number = 2;
-                break;
-            case 'bankingledger':
-                this.state.project_number = 3;
-                break;
-            case 'mazesolver':
-                this.state.project_number = 4;
-                break;
-            case 'hangman':
-                this.state.project_number = 5;
-                break;
-            case 'rbmarketplace':
-                this.state.project_number = 6;
-                break;
-            default:
-                break;
-        }
-    }
-
-    componentDidMount() {
-        loadjs('../main.js');
-      }
-
-    render() {
-        return (
-        <div id="ProjectPage">
-            <ProjectNav id={this.state.project_number}/>
-            <ProjectHeader header={headerList[this.state.project_number]} style={styleList[this.state.project_number]}/>
-            <Description description={descriptionList[this.state.project_number]} image={imageList[this.state.project_number]} source={sourceList[this.state.project_number]}/>
-            <ShowPresentation id={this.state.project_number}/>
-            <Demo demo={demoList[this.state.project_number]}/>
-        </div>
-        );
+function getProjectNumber(projectname) {
+    switch (projectname) {
+        case 'kidsplay':
+            return 0;
+        case 'issueticketingsystem':
+            return 1;
+        case 'luigispizzeria':
+            return 2;
+        case 'bankingledger':
+            return 3;
+        case 'mazesolver':
+            return 4;
+        case 'hangman':
+            return 5;
+        case 'rbmarketplace':
+            return 6;
+        default:
+            return 0;
     }
 }
-export default Projects;
 
+const Projects = () => {
+    const { projectname } = useParams();
+    const [projectNumber, setProjectNumber] = useState(getProjectNumber(projectname));
+
+    useEffect(() => {
+        setProjectNumber(getProjectNumber(projectname));
+        loadjs('../main.js');
+    }, [projectname]);
+
+    return (
+        <div id="ProjectPage">
+            <ProjectNav id={projectNumber}/>
+            <ProjectHeader header={headerList[projectNumber]} style={styleList[projectNumber]}/>
+            <Description description={descriptionList[projectNumber]} image={imageList[projectNumber]} source={sourceList[projectNumber]}/>
+            <ShowPresentation id={projectNumber}/>
+            <Demo demo={demoList[projectNumber]}/>
+        </div>
+    );
+};
 
 function ShowPresentation(props) {
-  if (props.id == 0 || props.id == 1) {
-    return <Presentation pres={presentationList[props.id]}/>;
-  }
-  return null;
+    if (props.id === 0 || props.id === 1) {
+        return <Presentation pres={presentationList[props.id]}/>;
+    }
+    return null;
 }
+
+export default Projects;
 

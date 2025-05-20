@@ -123,7 +123,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Chase Anzelc.", "an Architect", " a Full Stack Software Engineer.", "a Programmer.", "a Coder."],
+      strings: ["Chase Anzelc.", "a Software Engineer", "an Architect.", "a Programmer.", "a Coder."],
       typeSpeed: 130,
       loop: true,
     });
@@ -148,20 +148,20 @@ $(document).ready(function() {
 });
 
 // ========================================================================= //
-//  Porfolio isotope and filter
+//  Projects isotope and filter
 // ========================================================================= //
 $(function(){
 
-  var portfolioIsotope = $('.portfolio-container').isotope({
-    itemSelector: '.portfolio-thumbnail',
+  var projectsIsotope = $('.projects-container').isotope({
+    itemSelector: '.projects-thumbnail',
     layoutMode: 'fitRows'
   });
 
-  $('#portfolio-flters li').on( 'click', function() {
-    $("#portfolio-flters li").removeClass('filter-active');
+  $('#projects-filters li').on( 'click', function() {
+    $("#projects-filters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
-    portfolioIsotope.isotope({ filter: $(this).data('filter') });
+    projectsIsotope.isotope({ filter: $(this).data('filter') });
   });
 
 })
