@@ -3,46 +3,52 @@ import { Card, CardContent, CardMedia, Typography, Grid, Chip, Box } from "@mui/
 
 const projects = [
   {
-    title: "RB Marketplace",
-    image: "images/portfolio/rbmarketplace.jpg",
-    description: "A full-featured web marketplace for buying and selling goods.",
-    skills: ["React", "Node.js", "MongoDB", "Express", "AWS"]
+    title: "FHIR API & Interoperability Platform",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Built and scaled a fully compliant FHIR R4 API platform serving over 6 million daily requests. Expanded supported resources from 10 to 35+ and integrated with 12+ third-party vendors. Optimized API performance to <200ms using Spring Boot, Kotlin, and HAPI FHIR, with real-time observability via Dynatrace.",
+    skills: ["FHIR R4", "Interoperability", "Spring Boot", "Kotlin", "API Performance", "Healthcare Integration", "Dynatrace"]
   },
   {
-    title: "KidsPlay Mobile App",
-    image: "images/portfolio/kidsplay.jpg",
-    description: "A mobile app for kids to play educational games and track progress.",
-    skills: ["React Native", "Firebase", "Redux"]
+    title: "Carequality Integration Microservice",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Designed and delivered a production-ready Carequality integration service for secure exchange of healthcare documents with national networks. Implemented with a microservice architecture using Spring Boot, Java, and AWS ECS, integrated with a third-party vendor's REST API.",
+    skills: ["Carequality", "Secure Document Exchange", "AWS ECS", "Spring Boot", "Java", "Healthcare Compliance"]
   },
   {
-    title: "Luigi's Pizzeria",
-    image: "images/portfolio/luigipizzaria.jpg",
-    description: "A web ordering system for a local pizzeria, including menu and delivery management.",
-    skills: ["React", "Redux", "Node.js", "PostgreSQL"]
+    title: "eFax & Direct Messaging System",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Led architecture and development of a high-throughput messaging system for eFax and Direct Messaging. Built with Apache Kafka, Spring Boot, and AWS ECS, the service processed over 4.4 million secure messages, with webhook authentication via a custom HMAC-SHA256 gateway.",
+    skills: ["Kafka", "Messaging Microservices", "eFax", "Direct Messaging", "Security", "HMAC", "Java"]
   },
   {
-    title: "Issue Ticketing System",
-    image: "images/portfolio/issuetic.jpg",
-    description: "A ticketing and issue tracking system for IT support teams.",
-    skills: ["React", "Django", "REST API", "PostgreSQL"]
+    title: "FHIR ETL & Real-Time Change Data Capture",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Designed a real-time ETL pipeline using Debezium, Kafka, and a dedicated AWS ECS service to extract changes from internal systems and transform them into FHIR resources. Output stored in a NoSQL FHIR-compliant datastore (AWS DocumentDB), enabling near-instant interoperability.",
+    skills: ["Change Data Capture (CDC)", "Kafka", "Debezium", "AWS ECS", "ETL", "DocumentDB", "FHIR"]
   },
   {
-    title: "Banking Ledger Console App",
-    image: "images/portfolio/banking.jpg",
-    description: "A console application for managing banking transactions and ledgers.",
-    skills: ["Python", "SQLite", "CLI"]
+    title: "SSO & SMART on FHIR Integration",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Architected secure Single Sign-On (SSO) using Keycloak, OAuth2, and JWT, supporting ambient AI documentation through integration with an OPIE AI Scribe assistant. Aligned with SMART on FHIR standards for seamless and secure data access across applications.",
+    skills: ["SSO", "OAuth2", "Keycloak", "SMART on FHIR", "JWT", "AI Integration", "Healthcare Security"]
   },
   {
-    title: "Maze Solver",
-    image: "images/portfolio/maze.jpg",
-    description: "A console app that solves mazes using various algorithms.",
-    skills: ["C++", "Algorithms", "Data Structures"]
+    title: "Patient Intake & Messaging Automation",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Led architecture and documentation of a pre-visit patient intake system, integrated with automated messaging tools. Enabled clinics to collect surveys and forms securely before a visit, improving operational efficiency and patient experience.",
+    skills: ["Messaging Systems", "Intake Workflows", "Form Automation", "HIPAA", "API Integration"]
   },
   {
-    title: "Hangman Game",
-    image: "images/portfolio/hangman.jpg",
-    description: "A classic hangman game implemented as a console application.",
-    skills: ["Java", "OOP", "CLI"]
+    title: "Public FHIR Developer Portal",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Designed and developed a public-facing FHIR documentation site using ReactJS, Spring API Gateway, reCAPTCHA, and EmailJS. Allowed secure external developer access and webhook submission into internal FHIR systems.",
+    skills: ["Developer Portals", "React", "Spring Gateway", "Webhooks", "Security", "FHIR"]
+  },
+  {
+    title: "Custom Lab Integration Platform",
+    image: "images/portfolio/placeholder.jpg",
+    description: "Built a custom document automation platform for a healthcare provider, enabling lab result integration with LabCorp and AEL using the HL7 standard. Delivered via on-premise deployment on IIS, using React, ASP.NET, and SQL Server in collaboration with ELLKAY.",
+    skills: ["HL7", "Lab Integration", "ELLKAY", "React", "ASP.NET", "SQL Server", "On-Premise Solutions"]
   }
 ];
 
