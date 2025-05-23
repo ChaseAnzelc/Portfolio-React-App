@@ -14,7 +14,7 @@ return (
                         </div>
 
                         <div className="services-block">
-                            <i className="ion-cloud"></i>
+                            <i className="ion-ios-cloud-outline"></i>
                             <span>AWS Cloud Services</span>
                             <p className="separator">
                                 Primary expertise in AWS with hands-on experience using ECS, CloudFormation, CloudWatch, S3, RDS, and Lambda to deliver secure, scalable, and cost-effective systems.
@@ -38,10 +38,26 @@ return (
                         </div>
 
                         <div className="services-block">
-                            <i className="ion-ios-locked-outline"></i>
-                            <span>Security & Monitoring</span>
+                            <i className="ion-ios-eye-outline"></i>
+                            <span>Observability & Monitoring</span>
                             <p className="separator">
                                 Experienced with implementing secure cloud infrastructure, monitoring tools (New Relic, Dynatrace, AWS CloudWatch, SUMO Logic, and best practices for logging and observability.
+                            </p>
+                        </div>
+
+                        <div className="services-block">
+                            <i className="ion-ios-locked-outline"></i>
+                            <span>Security</span>
+                            <p className="separator">
+                                Secure authentication and authorization with OIDC, OAuth2, Cognito, Auth0, HMAC, SAML, SSO, and Keycloak. Experienced in secrets management (AWS Secrets), AES-256 encryption, and JWT for protecting sensitive data and ensuring compliance.
+                            </p>
+                        </div>
+
+                        <div className="services-block">
+                            <i className="ion-ios-medkit-outline"></i>
+                            <span>Healthcare</span>
+                            <p className="separator">
+                                Proficient in building healthcare solutions using FHIR, HL7, C-CDA, SOAP, and HIPAA standards. Skilled with SMART on FHIR, eRX, EPCS, Direct Messaging, Carequality, and patient portals for secure, interoperable digital health systems.
                             </p>
                         </div>
                     </div>
