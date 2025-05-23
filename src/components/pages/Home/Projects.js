@@ -89,7 +89,7 @@ const projects = [
 
 const Projects = () => (
   <ThemeProvider theme={theme}>
-    <Box id="projects" sx={{ py: 10, px: 20 }}>
+    <Box id="projects" sx={{ py: { xs: 4, md: 10 }, px: { xs: 1, sm: 2, md: 8, lg: 20 } }}>
       <Typography variant="h2" align="center" sx={{ mb: 8, color: '#111', fontWeight: 700, fontSize: '2.25rem', letterSpacing: '0.01em' }} gutterBottom>
         Projects
       </Typography>
@@ -97,6 +97,8 @@ const Projects = () => (
         {projects.map((project, idx) => (
           <Grid item key={idx} xs={12} sm={6} md={4}>
             <Card sx={{
+              width: '100%',
+              maxWidth: { xs: '100%', sm: 400, md: 500, lg: 600 },
               flexDirection: 'column',
               height: '100%',
               borderRadius: 4,
@@ -108,17 +110,16 @@ const Projects = () => (
                 transform: 'translateY(-3px) scale(1.015)',
                 boxShadow: '0 10px 28px rgba(15, 17, 19, 0.16)',
               },
-              marginLeft: 1,
-              marginRight: 1
+              mx: { xs: 0, sm: 'auto' }
             }}>
               <CardContent sx={{ 
                   p: 3,
                   borderRadius: 4
                 }}>
-                <Typography variant="h5" component="div" gutterBottom sx={{ fontWeight: 700, fontSize: '18px', color: '#222', pb: 2 }}>
+                <Typography variant="h5" component="div" gutterBottom sx={{ fontWeight: 700, fontSize: '16px', color: '#222', pb: 2, fontFamily: 'Poppins, helvetica, Arial, sans-serif' }}>
                   {project.title}
                 </Typography>
-                <Typography variant="body2" paragraph sx={{ minHeight: 80, fontSize: '15px', color: '#444' }}>
+                <Typography variant="body2" paragraph sx={{ minHeight: 80, fontSize: '15px', color: '#444', fontFamily: 'Poppins, helvetica, Arial, sans-serif', fontWeight: 300 }}>
                   {project.title === "Public FHIR Developer Portal" ? (
                     <>
                       Designed and developed a public-facing FHIR documentation site using ReactJS, Spring API Gateway, reCAPTCHA, and EmailJS. Allowed secure external developer access and webhook submission into internal FHIR systems. <a href="https://fhir-documentation.patientmedrecords.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#1976d2', textDecoration: 'underline' }}>Visit Site</a>
