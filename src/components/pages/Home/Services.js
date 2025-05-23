@@ -9,7 +9,7 @@ return (
                             <i className="ion-ios-cog-outline"></i>
                             <span>Infrastructure Architecture</span>
                             <p className="separator">
-                                Proficient in architecting, building, and deploying scalable infrastructure from the ground up, from concept to production-ready environments.
+                                Proficient in architecting, building, and deploying scalable infrastructure from the ground up, transforming concepts into resilient, production-ready environments using cloud-native tools and automation.
                             </p>
                         </div>
 
@@ -17,7 +17,7 @@ return (
                             <i className="ion-ios-cloud-outline"></i>
                             <span>AWS Cloud Services</span>
                             <p className="separator">
-                                Primary expertise in AWS with hands-on experience using ECS, CloudFormation, CloudWatch, S3, RDS, and Lambda to deliver secure, scalable, and cost-effective systems.
+                                Deep hands-on expertise in AWS, delivering secure and cost-efficient systems using ECS, Lambda, RDS, S3, CloudWatch, and CloudFormation.
                             </p>
                         </div>
 
@@ -25,13 +25,13 @@ return (
                             <i className="ion-arrow-graph-up-right"></i>
                             <span>DevOps & CI/CD</span>
                             <p className="separator">
-                                Skilled in implementing automated pipelines for building, testing, and deploying applications using tools like Gitlab CI, GitHub Actions, Jenkins, and Docker.
+                                Skilled in implementing automated pipelines for building, testing, and deploying applications using tools like Gitlab CI, GitHub Actions, Jenkins, and Docker; enabling rapid, reliable deployments across environments.
                             </p>
                         </div>
 
                         <div className="services-block">
                             <i className="ion-ios-world-outline"></i>
-                            <span>Full Stack Engineering</span>
+                            <span>Software Engineering</span>
                             <p className="separator">
                                 Experienced in building end-to-end applications with modern front-end frameworks (React, Typescript, Angular), robust APIs (Java, Kotlin, Node.js, .NET), and scalable databases (Mysql, MongoDB, PostgreSQL).
                             </p>
@@ -41,7 +41,7 @@ return (
                             <i className="ion-ios-eye-outline"></i>
                             <span>Observability & Monitoring</span>
                             <p className="separator">
-                                Experienced with implementing secure cloud infrastructure, monitoring tools (New Relic, Dynatrace, AWS CloudWatch, SUMO Logic, and best practices for logging and observability.
+                                Implement robust observability using tools like New Relic, Dynatrace, AWS CloudWatch, and Sumo Logic, alongside secure cloud infrastructure and best practices for logging, alerting, and metrics.
                             </p>
                         </div>
 
@@ -49,7 +49,7 @@ return (
                             <i className="ion-ios-locked-outline"></i>
                             <span>Security</span>
                             <p className="separator">
-                                Secure authentication and authorization with OIDC, OAuth2, Cognito, Auth0, HMAC, SAML, SSO, and Keycloak. Experienced in secrets management (AWS Secrets), AES-256 encryption, and JWT for protecting sensitive data and ensuring compliance.
+                                Design secure authentication and authorization using OIDC, OAuth2, SSO, Keycloak, Cognito, Auth0, and HMAC. Experienced with secrets management (AWS Secrets), AES-256 encryption, and JWT to protect sensitive data and support HIPAA and SOC 2 compliance.
                             </p>
                         </div>
 
@@ -57,7 +57,7 @@ return (
                             <i className="ion-ios-medkit-outline"></i>
                             <span>Healthcare</span>
                             <p className="separator">
-                                Proficient in building healthcare solutions using FHIR, HL7, C-CDA, SOAP, and HIPAA standards. Skilled with SMART on FHIR, eRX, EPCS, Direct Messaging, Carequality, and patient portals for secure, interoperable digital health systems.
+                                Build secure, standards-compliant healthcare solutions using FHIR, HL7, C-CDA, SMART on FHIR, and SOAP. Experienced in Direct Messaging, eRX, EPCS, Carequality, and patient portals to enable interoperable digital health ecosystems.
                             </p>
                         </div>
                     </div>
