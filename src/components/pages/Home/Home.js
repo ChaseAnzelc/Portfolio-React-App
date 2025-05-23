@@ -4,7 +4,7 @@ import AboutMe from './AboutMe.js';
 import HomeHeader from './HomeHeader.js';
 import HomeNav from './HomeNav.js';
 import Services from './Services.js';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 import Contact from './Contact.js';
 
 var loadjs = require('loadjs');
@@ -22,7 +22,7 @@ class Home extends React.Component {
             <HomeHeader />
             <AboutMe />
             <Services />
-            <Portfolio />
+            <Projects />
             <Contact />
          </div>
         );
@@ -37,7 +37,7 @@ const Home = () => {
        <HomeHeader />
        <AboutMe />
        <Services />
-       <Portfolio />
+       <Projects />
        <Contact />
     </div>
     );

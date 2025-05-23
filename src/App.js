@@ -3,7 +3,7 @@ import './App.css';
 import './Responsive.css';
 import Footer from './components/layouts/Footer.js';
 import Home from './components/pages/Home/Home.js';
-import Projects from './components/pages/Projects/Projects.js';
+import Projects from './components/pages/Home/Projects.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
