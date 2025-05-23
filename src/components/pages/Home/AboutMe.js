@@ -17,7 +17,11 @@ const AboutMe = () => {
                     </div>
                     <div className="col-lg-7">
                         <div className="about-descr">
-                            <p className="separator">I'm a full-stack senior software engineer who specializes in building practical, scalable systems tailored to each project's unique needs. Whether it's designing cloud-native applications, integrating third-party services through webhooks, or delivering real-time APIs and microservices, I bring a solutions-focused mindset to every challenge. I work across the stack, front-end, back-end, and cloud infrastructure to create reliable and maintainable systems that align with business goals. Whether you need a complete system overhaul or a new application built from the ground up, I provide end-to-end solutions that align with your business objectives.</p>
+                            <p className="separator">I am a Senior Software Engineer with 5+ years of experience delivering scalable, secure, and cloud-native solutions across backend, 
+frontend, and infrastructure layers. Proven track record in healthcare interoperability, FHIR/HL7 standards, secure system 
+integration (OAuth2, Keycloak), and real-time data pipelines. I am skilled in leading high-impact initiatives using modern tech 
+stacks and AWS services to deliver reliable, business-aligned engineering outcomes. From idea to mock-up to production, 
+I’m passionate about solving your complex problems and driving your projects across the finish line.</p>
                         </div>
                     </div>
                 </div>
