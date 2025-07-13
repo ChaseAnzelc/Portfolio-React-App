@@ -1,1 +1,1 @@
-#This is my portfolio application built in React
+#This is my portfolio application built in ReactJS
